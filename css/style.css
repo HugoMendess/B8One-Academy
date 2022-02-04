@@ -1,0 +1,978 @@
+/* Resetando as definiçõs da página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #030303;
+}
+
+/* Continer */
+.container{
+    max-width: 1376px;
+    margin: 0 auto;
+}
+
+
+.cont-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-flex-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header */
+
+.header{
+    padding: 20px 0;
+}
+
+.img-logo a{
+    cursor: pointer;
+    gap: 32px;
+}
+#txtSearch{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size: 1.12em;
+    border:none;
+    height:32px;
+    width: 92%;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+#txtSearch:focus{
+    outline: 0 !important;
+}
+.div-search{
+    border: 1px solid #9FA3A6;
+    width: 850px;
+    padding: 10px 0;
+    border-radius: 4px;
+}
+
+.btn-search{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-op{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-op li{
+    margin: 0 20px;
+    list-style: none;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.menu-op li div{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.menu-op li span{
+    font-size: 1em;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-family: "Inter", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+#img-number{
+    position: absolute;
+    margin-left: 16px;
+    margin-top: -10px;
+}
+
+/* Nav do site */
+
+.nav{
+    background-color: #030303;
+}
+.nav .menu-list li a{
+    list-style-type: none;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.menu-list li a:hover{
+    color: #E36305;
+}
+
+.nav .menu-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.pags-header{
+    padding: 30px 32px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.pags-header .tag-lists{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10.5px;
+}
+
+.pags-header .tag-lists li{
+    list-style-type: none;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+.pags-header .tag-lists li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #40464D;
+}
+
+.pags-header .tag-lists li #list-color{
+    color: #E36305;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.4%;
+}
+
+/* Primeira Seção do site ----------------------*/
+
+.section-one{
+    margin-top: 30px;
+  
+   
+}
+
+.cont-border{
+    border-bottom: 1px solid #E9E9E9;
+}
+.img-product{
+    width: 40%;
+    padding-bottom: 120px;
+    
+}
+
+.section-one-details{
+    width: 50%;
+}
+
+.img-product p{
+   text-align: center;
+}
+
+.section-one-details .product-type{
+    color: #40B25C;
+    font-size: 0.8em;
+    font-weight: 600;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    line-height: 16px;
+}
+
+.banner-mobile{
+    display: none;
+}
+
+.section-one-details h1{
+    font-size: 1.25em;
+    font-weight: 600;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    padding: 10px 0;
+}
+
+.details-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: centers;
+    flex-wrap: wrap;
+}
+
+.details-product .uper{
+    text-transform: uppercase;
+}
+
+.circles{
+    margin: 30px 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.circle-color{
+  
+    border: 5px solid #CFD1D2;
+    background-color: #595961;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 30px;
+}
+
+.bg-1{
+    background: #FFD1C2;
+}
+
+.bg-2{
+    background: #C8C8CF;
+}
+
+.details-product{
+    padding: 20px 0;
+}
+
+.details-product p{
+    font-size: 0.8em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.product-details-list{
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-list-one{
+    box-sizing: border-box;
+}
+
+
+.details-list-one, .details-list-two{
+    width: 50%;
+    padding-right: 25px;
+}
+
+
+.div-one p{
+    font-size: 0.9em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    color: #030303;
+}
+
+.div-one strong{
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 20px;
+}
+
+.screan-size{
+    font-size: 0.9em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    color: #030303;
+
+}
+
+.product-details-list .product-size{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* .div-two{
+    padding-bottom: 76px;
+    padding-top: 26px;
+} */
+
+.product-details-list .product-size li{
+   margin-right: 12px;
+}
+
+.product-size .size-models{
+    padding: 12px 24px;
+    border: 1px solid #CFD1D2;
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    cursor: pointer;
+   
+}
+
+.size-models:hover{
+    background-color: #CFD1D2;
+    color: #9FA3A6;
+    transition: 0.5s;
+}
+
+.size-models span{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.bg-models{
+    background: #E9E9E9;
+    color: #9FA3A6;
+}
+
+.product-shipping{
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    padding: 24px 32px;
+}
+
+.product-shipping div{
+    margin-right: 30px;
+}
+
+.product-shipping span{
+    font-size: 0.9em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-weight: 600;
+    color: #030303;
+}
+
+.product-shipping #bg-p{
+    color: #40B25C;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.product-shipping p{
+    font-size: 0.8em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    color: #40464D;
+    margin: 8px 0;
+}
+.details-list-two{
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 24px;
+}
+
+.details-list-two h2{
+    font-size: 1.5em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 32px;
+    color: #030303;
+
+}
+
+.details-list-two span{
+    margin: 10px 3px;
+}
+
+.price-original{
+    color: #9FA3A6;
+    text-decoration: line-through;
+    font-size: 0.8em;
+}
+
+.price-promo{
+    font-size: 0.8em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 16px;
+    color: #E63737;
+    background-color: #F6CBCB;
+    padding: 2px 4px;
+    border-radius: 4px;
+
+}
+
+.btn-purchase{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: inherit;
+    align-items: center;
+    gap: 0 30px;
+    margin: 20px 0 30px 0;
+
+}
+
+
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0 14px;
+    width: 128px;
+    height: 48px;
+    border: 1px solid #9FA3A6;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.btn-less{
+    display: flex;
+}
+
+.btn button{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.btn span{
+    font-size: 1em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.status-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00cc66;
+    font-size: 1em;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+
+}
+
+.btn-show{
+    color: red;
+}
+
+.btn-details{
+   
+}
+
+.btn-details span{
+    font-size: 0.8em;
+    font-weight: 600;
+    color:#E63737;
+    line-height: 16px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.btn-details p{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #030303;
+    line-height: 16px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.btn-green{
+    background: #40B25C;
+    border-radius: 4px;
+    border: none;
+    padding: 16px 32px;
+    width: 100%;
+    margin: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.btn-green:hover{
+    background-color: #fff;
+    color: #40B25C;
+    border: 1px solid #40B25C;
+    transition: 0.5s;
+}
+
+.btn-orange{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #E36305;
+    border-radius: 4px;
+    border: none;
+    padding: 16px 32px;
+    width: 100%;
+    margin: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+   
+}
+
+.btn-orange:hover{
+    background-color: #fff;
+    border: 1px solid #E36305;
+    color: #E36305;
+    box-sizing: border-box;
+}
+
+#p-details{
+    font-size: 0.8em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#p-details span{
+    font-weight: 600;
+    font-size: 1em;
+}
+
+
+/* Segunda Seção do site ----------------------*/
+
+.section-two{
+    margin-top: 60px;
+}
+
+.section-two h2{
+    
+    color: #030303;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.span-details{
+    color: #40B25C;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    line-height: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.products-list-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.list-products-cart{
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px 0;
+}
+
+.list-products-cart li{
+    list-style-type: none;
+}
+
+
+.discout-promo{
+    display: block;
+    padding: 0 4px;
+    width: 33px;
+    height: 20px;
+    background-color: #E63737;
+    color: #fff;
+    margin: 2px 0;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.display-set{
+    display: block;
+    width: 70px;
+
+}
+
+.img-carts{
+    margin-top: -30px;
+}
+
+.img-carts-arrow{
+    position: absolute;
+    left: 120px;
+    margin-top: 120px;
+}
+
+.cart-details{
+    margin-top: 40px;
+    border-top: 1px solid  #E9E9E9;;
+}
+
+.cart-details h3{
+    padding: 10px 0;
+}
+
+.cart-details .price-discount{
+    display: block;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 24px;
+    color:  #030303;
+}
+
+.price-installments{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 20px;
+    color: #40464D;
+    font-weight: 500;
+}
+
+.img-carts-arrow-right{
+    position: absolute;
+    right: 120px;
+    margin-top: 120px;
+}
+
+
+/* Terceira Seção do site ----------------------*/
+
+.section-three{
+    margin: 80px 0;
+}
+
+.section-three h2{
+    
+    color: #030303;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+
+/* Quarta Seção do site ----------------------*/
+.section-banner{
+    margin: 40px 0;
+}
+
+.section-banner img{
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+
+.banner-bottom{
+    margin-bottom: 40px;
+}
+
+/* Quinta Seção do site ----------------------*/
+
+.container-five{
+    max-width: 75%;
+ 
+}
+
+.section-five h3{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 28px;
+    color:  #101820;
+    margin: 20px 0;
+}
+
+.section-five span{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 0.85em;
+    line-height: 16px;
+    font-weight: 600;
+    color: #101820;
+}
+
+.section-five p{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 18px;
+    font-weight: 400;
+    margin: 30px 0;
+    text-align: justify;
+}
+
+.section-five ul li{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 18px;
+    font-weight: 400;
+}
+.section-five ul{
+    margin-left: 20px;
+}
+
+
+#about-apple{
+    color: #6478af;
+}
+
+/* Sexta Seção do site ----------------------*/
+
+.section-six{
+    background-color: #40B25C;
+}
+
+.form-email{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 38px 100px;
+}
+
+.form-email h2{
+    font-size: 2em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.form-email form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.mail-form{
+    border: 1px solid #FFFFFF;
+    width: 561px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    padding: 14px;
+    display: flex;
+    gap: 16px;
+}
+
+.mail-form #mail-input{
+    border: none;
+    width: 100%;
+}
+
+.mail-form #mail-input:focus{
+    outline: 0 !important;
+}
+
+#btn-submit{
+    font-size: 0.9em;
+    color: #FFFFFF;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    background: #E36305;
+    border-radius: 4px;
+    padding: 12px 32px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* Footer Seção do site ----------------------*/
+
+.footer{
+    background: #030303;
+    width: 100%;
+    height: 700px;
+}
+
+.footer-block-one{
+    color: #FFFFFF;
+    padding-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 16px;
+    padding-bottom: 46px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.footer-list-one p, .footer-list-two p{
+    font-size: 0.9em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-weight: 600;
+    width: 332px;
+ 
+}
+
+.lists-footer{
+    gap: 16px;
+}
+
+.lists-footer ul{
+    padding: 8px 0;
+}
+.lists-footer ul li{
+    width: 216px;
+    margin: 14px 0;
+    color: #CFD1D2;
+    font-size: 0.8em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-weight: 500;
+
+}
+
+.lists-footer{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.btn-options a{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    gap: 0 11px;
+    line-height: 24px;
+
+}
+
+.btn-options p{
+    text-align: center;
+    font-size: 0.8em;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 14px;
+    width: 332px;
+    color: #FFFFFF;
+}
+
+.btn-options .btn-call-us, .btn-options .btn-send-msn{
+    
+    border-radius: 4px;
+    width: 332px;
+    height: 48px;
+    padding: 12px 20px;
+}
+
+.btn-send-msn{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+#bg-color-1{
+    background-color: #40B25C;
+}
+
+#bg-color-2{
+    background: #E36305;
+}
+
+
+.footer-block-two{
+    padding-top: 63px;
+    
+}
+
+
+.footer-social-media{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 67.5px;
+}
+.list-payment, .list-social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-payment{
+    gap: 0 8px;
+}
+
+.list-social{
+    gap: 0 32.5px;
+}
+
+.footer-details{
+    margin: 0 auto;
+}
+.footer-details .Copyright{
+    width: 338px;
+    margin: 0 auto;
+    font-size: 0.7em;
+    line-height: 16px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: -0.004em;
+    margin-bottom: 12px;
+}
+
+.footer-text{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    width: 1028px;
+    font-size: 0.7em;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0 auto;
+    text-align: center;
+    color: #CFD1D2;
+}
+
+.footer-logos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 28px;
+}
+
